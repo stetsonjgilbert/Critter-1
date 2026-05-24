@@ -1,35 +1,228 @@
 <!DOCTYPE html>
 
-<html lang="en">
-
 <head>
 
     <meta charset="UTF-8">
 
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Critter</title>
 
 <body>
 
-    <ol>
+    <!-- Lets start with a couple of geograpic dividers, divs -->
 
-        <li>Use folders to organize work and find content efficiently</li>
+    <div class="wrapper">
 
-        <li>G-Suite provides freecloud based tools for creating and analyzing</li>
+        <h1>Smiley Critter</h1>
 
- <li>File extensions indicate the type of data stored in a file</li>
 
- <li>Files can be downloaded from the internet and stored in specific folders</li>
 
- <li>File compression reduces the amount of space files take up</li> 
+        <div class="face">
 
- <li>Image editors, like GIMP, support modifying image files</li>
+            <div class="lefteye">
 
- <li>GitHub is commonly used and free software platform, for saving file and folder content</li>
+                <div class="innerleft"></div>
 
- </ol>
+            </div>
+
+            <div class="rightteye">
+
+                <div class="innerright"></div>
+
+            </div>
+
+            <div class="righteyebrow"></div>
+
+            <div class="lefteyebrow"></div>
+
+            <div class="nose"></div>
+
+            <div class="mouth"></div>
+
+
+
+        </div>
+
+    </div>
 
 </body>
 
-</html>
+
+   <style>
+
+
+        .face {
+
+            width: 75px;
+
+            height: 75px;
+
+            border: solid 2px black;
+
+            background-color: yellow;
+
+            border-radius: 50px;
+
+            position: absolute;
+
+        }
+
+       .righteyebrow {
+
+            width: 15px;
+
+            height: 3px;
+
+            border: solid 1px brown;
+
+            border-radius: 3px;
+
+            z-index: 1;
+
+            position: absolute;
+
+            left: 27px;
+
+            top: 20px;
+
+            background-color: brown;
+
+       }
+
+        .lefteye {
+
+            width: 6px;
+
+            height: 6px;
+
+            border: solid 1px black;
+
+            border-radius: 3px;
+
+            z-index: 1;
+
+            position: absolute;
+
+            left: 32px;
+
+            top: 26px;
+
+            background-color: black;
+
+        }
+
+
+
+        .innereye {
+
+            width: 2px;
+
+            height: 2px;
+
+            border: solid 1px white;
+
+            border-radius: 2px;
+
+            position: absolute;
+
+            left: 2px;
+
+            top: 2px;
+
+            background-color: white;
+
+        }
+
+       .lefteyebrow {
+
+            width: 15px;
+
+            height: 3px;
+
+            border: solid 1px brown;
+
+            border-radius: 3px;
+
+            z-index: 1;
+
+            position: absolute;
+
+            left: 50px;
+
+            top: 12px;
+
+            background-color: brown;
+       }
+
+        .rightteye {
+
+            width: 6px;
+
+            height: 6px;
+
+            border: solid 1px black;
+
+            border-radius: 3px;
+
+            z-index: 1;
+
+            position: absolute;
+
+            left: 54px;
+
+            top: 18px;
+
+            background-color: black;
+
+        }
+
+      .nose {
+
+            width: 25px;
+
+            height: 25px;
+
+            border: solid 2px black;
+
+            background-color: yellow;
+
+            border-radius: 50px;
+
+            left: 60px;
+
+            top: 25px;
+
+            position: absolute;
+
+        }
+
+
+         .mouth {
+
+            width: 30px;
+
+            height: 10px;
+
+            border: solid 1px black;
+
+            border-radius: 0 0 45px 45px;
+
+            margin: 16px;
+
+            position: absolute;
+
+            top: 2em;
+
+            left: 0.7em;
+
+            background-color: red;
+
+        }
+
+    </style>
+
+
+</head>
